@@ -1,4 +1,5 @@
 #!/usr/bin/env tclsh
+package provide emitter 1.0
 # create Emiiter Class
 oo::class create Emitter {
     # event names will be used as the index of Stack array
